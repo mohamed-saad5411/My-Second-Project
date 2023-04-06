@@ -1,0 +1,72 @@
+@media screen and (max-width:570px) {
+    .icon-custom{
+        width: 55%;
+    }
+    .carousel-custom{
+        width: 80% !important;
+    }
+    .carousel-custom img{
+        width: 35% !important;
+    }
+    .my-numbers{
+        height: 170vh;
+    }
+    #about img{
+        margin-bottom: 2rem !important; 
+    }
+    .head-content h1{
+        font-size: 3rem;
+    }
+    #home .head-content{
+        width: 94% !important;
+    }
+    
+}
+@media screen and (min-width:571px) and (max-width:767px) {
+    .icon-custom{
+        width: 50%;
+    }
+    .carousel-custom{
+        width: 90% !important;
+    }
+    .carousel-custom img{
+        width: 20% !important;
+    }
+    .badge-custom{
+        left: 40%;
+    }
+    .head-content h1{
+        font-size: 3rem;
+    }
+    #home .head-content{
+        width: 94% !important;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .icon-custom{
+        width: 70%;
+    }
+    .carousel-custom img{
+        width: 30% !important;
+    }
+    #about img{
+        width: 80%;
+    }
+    .badge-custom{
+        top: -5%;
+        left: 32.5%;
+    }
+    .head-content h1{
+        font-size: 4.5rem;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .icon-custom{
+        width: 55%;
+    }
+    .head-content h1{
+        font-size: 4.5rem;
+    }
+    
+}

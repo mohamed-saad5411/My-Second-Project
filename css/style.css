@@ -1,0 +1,669 @@
+:root{
+    --main-color: white;
+    --hover-color: #007bff;
+}
+
+/* ...................header..................... */
+/* animation */
+#home p::after {
+    content: "";
+    animation: head-moving 18s alternate infinite;
+}
+@keyframes head-moving {
+    0% {
+        content: "|";
+    }
+
+    0.75% {
+        content: "C|";
+    }
+
+    1.5% {
+        content: "CE|";
+    }
+
+    2.25% {
+        content: "CEO|";
+    }
+
+    3% {
+        content: "CEO |";
+    }
+
+    3.75% {
+        content: "CEO D|";
+    }
+
+    4.5% {
+        content: "CEO De|";
+    }
+
+    5.25% {
+        content: "CEO Dev|";
+    }
+
+    6% {
+        content: "CEO DevF|";
+    }
+
+    6.75% {
+        content: "CEO DevFo|";
+    }
+
+    7.5% {
+        content: "CEO DevFol|";
+    }
+
+    8.25% {
+        content: "CEO DevFoli|";
+    }
+
+    9% {
+        content: "CEO DevFolio|";
+    }
+
+    9.75% {
+        content: "CEO DevFolio|";
+    }
+
+    10.5% {
+        content: "CEO DevFoli|";
+    }
+
+    11.25% {
+        content: "CEO DevFol|";
+    }
+
+    12% {
+        content: "CEO DevFo|";
+    }
+
+    12.75% {
+        content: "CEO DevF|";
+    }
+
+    13.5% {
+        content: "CEO Dev|";
+    }
+
+    14.25% {
+        content: "CEO De|";
+    }
+
+    15% {
+        content: "CEO D|";
+    }
+
+    15.75% {
+        content: "CEO |";
+    }
+
+    16.5% {
+        content: "CEO|";
+    }
+
+    17.25% {
+        content: "CE|";
+    }
+
+    18% {
+        content: "C|";
+    }
+
+    18.75% {
+        content: "W|";
+    }
+    19.5% {
+        content: "We|";
+    }
+
+    20.25% {
+        content: "Web|";
+    }
+
+    21% {
+        content: "Web |";
+    }
+
+    21.75% {
+        content: "Web D|";
+    }
+
+    22.5% {
+        content: "Web De|";
+    }
+
+    23.25% {
+        content: "Web Dev|";
+    }
+
+    24% {
+        content: "Web Deve|";
+    }
+
+    24.75% {
+        content: "Web Devel|";
+    }
+
+    25.5% {
+        content: "Web Develo|";
+    }
+
+    26.25% {
+        content: "Web Develop|";
+    }
+
+    27% {
+        content: "Web Develope|";
+    }
+
+    27.75% {
+        content: "Web Developer|";
+    }
+    28.5% {
+        content: "Web Developer|";
+    }
+
+    29.25% {
+        content: "Web Develope|";
+    }
+
+    30% {
+        content: "Web Develop|";
+    }
+
+    30.75% {
+        content: "Web Develo|";
+    }
+
+    31.5% {
+        content: "Web Devel|";
+    }
+
+    32.25% {
+        content: "Web Deve|";
+    }
+
+    33% {
+        content: "Web Dev|";
+    }
+
+    33.75% {
+        content: "Web De|";
+    }
+
+    34.5% {
+        content: "Web D|";
+    }
+
+    35.25% {
+        content: "Web |";
+    }
+
+    36% {
+        content: "Web De|";
+    }
+
+    36.75% {
+        content: "Web Des|";
+    }
+    37.5% {
+        content: "Web Desi|";
+    }
+
+    38.25% {
+        content: "Web Desig|";
+    }
+
+    39% {
+        content: "Web Design|";
+    }
+
+    39.75% {
+        content: "Web Designe|";
+    }
+
+    40.5% {
+        content: "Web Designer|";
+    }
+
+    41.25% {
+        content: "Web Designer|";
+    }
+
+    42% {
+        content: "Web Designe|";
+    }
+
+    42.75% {
+        content: "Web Design|";
+    }
+    43.5% {
+        content: "Web Desig|";
+    }
+
+    44.25% {
+        content: "Web Desi|";
+    }
+
+    45% {
+        content: "Web Des|";
+    }
+
+    45.75% {
+        content: "Web De|";
+    }
+
+    46.5% {
+        content: "Web D|";
+    }
+
+    47.25% {
+        content: "Web |";
+    }
+
+    48% {
+        content: "Web|";
+    }
+
+    48.75% {
+        content: "We|";
+    }
+
+    49.5% {
+        content: "W|";
+    }
+
+    50.25% {
+        content: "|";
+    }
+
+    51% {
+        content: "F|";
+    }
+
+    51.75% {
+        content: "Fr|";
+    }
+    52.5% {
+        content: "Fro|";
+    }
+
+    53.25% {
+        content: "Fron|";
+    }
+
+    54% {
+        content: "Front|";
+    }
+
+    54.75% {
+        content: "Fronte|";
+    }
+
+    55.5% {
+        content: "Fronted|";
+    }
+
+    56.25% {
+        content: "Fronted |";
+    }
+
+    57% {
+        content: "Fronted D|";
+    }
+
+    57.75% {
+        content: "Fronted De|";
+    }
+
+    58.5% {
+        content: "Fronted Dev|";
+    }
+
+    59.25% {
+        content: "Fronted Deve|";
+    }
+
+    60% {
+        content: "Fronted Devel|";
+    }
+
+    61.75% {
+        content: "Fronted Develo|";
+    }
+
+    62.5% {
+        content: "Fronted Develop|";
+    }
+    63.25% {
+        content: "Fronted Develope|";
+    }
+
+    64% {
+        content: "Fronted Developer|";
+    }
+
+    65.75% {
+        content: "Fronted Developer|";
+    }
+
+    66.5% {
+        content: "Fronted Develope|";
+    }
+
+    67.25% {
+        content: "Fronted Develop|";
+    }
+
+    68% {
+        content: "Fronted Develo|";
+    }
+
+    68.75% {
+        content: "Fronted Devel|";
+    }
+
+    69.5% {
+        content: "Fronted Deve|";
+    }
+
+    71.25% {
+        content: "Fronted Dev|";
+    }
+
+    72% {
+        content: "Fronted De|";
+    }
+    72.75% {
+        content: "Fronted D|";
+    }
+    73.5% {
+        content: "Fronted |";
+    }
+    74.25% {
+        content: "Fronted|";
+    }
+    75% {
+        content: "Fronte|";
+    }
+    75.75% {
+        content: "Front|";
+    }
+    76.5% {
+        content: "Fron|";
+    }
+    77.25% {
+        content: "Fro|";
+    }
+    78% {
+        content: "Fr|";
+    }
+    78.75% {
+        content: "F|";
+    }
+    79.5% {
+        content: "|";
+    }
+    80.25% {
+        content: "G|";
+    }
+    81% {
+        content: "Gr|";
+    }
+
+    81.75% {
+        content: "Gra|";
+    }
+
+    82.5% {
+        content: "Grap|";
+    }
+    82.5% {
+        content: "Graph|";
+    }
+    82.5% {
+        content: "Graphi|";
+    }
+    82.5% {
+        content: "Graphic|";
+    }
+    82.5% {
+        content: "Graphic |";
+    }
+    83.25% {
+        content: "Graphic D|";
+    }
+
+    84% {
+        content: "Graphic De|";
+    }
+    84.75% {
+        content: "Graphic Des|";
+    }
+    85.5% {
+        content: "Graphic Desi|";
+    }
+
+    86.25% {
+        content: "Graphic Desig|";
+    }
+
+    87% {
+        content: "Graphic Design|";
+    }
+
+    87.75% {
+        content: "Graphic Designe|";
+    }
+
+    88.5% {
+        content: "Graphic Designer|";
+    }
+
+    89.25% {
+        content: "Graphic Designer|";
+    }
+
+    90% {
+        content: "Graphic Designe|";
+    }
+
+    90.75% {
+        content: "Graphic Design|";
+    }
+    91.5% {
+        content: "Graphic Desig|";
+    }
+
+    92.25% {
+        content: "Graphic Desi|";
+    }
+
+    93% {
+        content: "Graphic Des|";
+    }
+
+    93.75% {
+        content: "Graphic De|";
+    }
+
+    94.5% {
+        content: "Graphic D|";
+    }
+
+    95.25% {
+        content: "Graphic |";
+    }
+
+    96% {
+        content: "Graphic|";
+    }
+
+    96.75% {
+        content: "Graphi|";
+    }
+
+    97.5% {
+        content: "Graph|";
+    }
+
+    98.25% {
+        content: "Grap|";
+    }
+    99% {
+        content: "Gra|";
+    }
+    99.3% {
+        content: "Gr|";
+    }
+    99.6% {
+        content: "G|";
+    }
+    100% {
+        content: "|";
+    }
+}
+/* animation */
+
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../images/intro-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.head-content h1{
+    font-size: 5rem;
+}
+.navbar-nav a ,.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: var(--main-color);
+}
+.navbar-nav a:hover{
+    color: var(--main-color);
+}
+.navbar {
+    background-color: rgb(0, 0, 0, 0.2);
+}
+.under-line-nav-custom::after{
+    content: "";
+    background-color: var(--main-color);
+    position: absolute;
+    bottom: -15%;
+    left: 0.5rem;
+    width: 2.3rem;
+    height: 0.2rem;
+}
+/* ...................about..................... */
+.under-line-custom,.under-line-nav-custom{
+    position: relative;
+}
+.under-line-custom::after{
+    content: "";
+    background-color: var(--hover-color);
+    position: absolute;
+    bottom: -30%;
+    left: 0;
+    width: 6rem;
+    height: 0.2rem;
+}
+.progress-custom{
+    height: 0.6rem;
+}
+.container-custom , .card{
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem rgb(214, 214, 214);
+}
+
+/* ...................portfolio..................... */
+#portfolio .card-body p{
+    font-size: 0.8rem;
+}
+.col-custom img{
+    transition: all 1s;
+}
+.col-custom:hover img{
+    transform: scale(1.25);
+}
+#carouselExampleIndicators{
+    height: 100vh;
+}
+#carouselExampleDark img{
+    width: 20%;
+
+}
+#carouselExampleIndicators img{
+    width: 20%;
+}
+.carousel-icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+.icon-portfolio{
+    width: 2rem;
+    height: 2rem;
+}
+/* ...................blog..................... */
+.a-custom{
+    transition: all 1s;
+}
+.a-custom:hover{
+    color: var(--hover-color) !important;
+}
+.card-footer img{
+    width: 2.5rem;
+
+}
+.badge-custom{
+    top: -8%;
+    left: 37.5%;
+}
+
+/* ...................contact..................... */
+.icon-contact {
+    width: 2.75rem;
+    height: 2.75rem;
+}
+.icon-custom{
+    width: 45%;
+}
+.icon-contact:hover , .card-custom:hover .icon-service{
+    background-color: var(--hover-color);
+    border-color: rgb(214, 214, 214) !important;
+}
+.icon-contact:hover i ,.card-custom:hover i{
+    color: var(--main-color) !important;
+}
+.icon-contact ,.icon-service{
+    transition: all 0.75s;
+}
+#contact , #carouselExampleIndicators{
+    background-image: linear-gradient(rgba(0, 153, 255, 0.7), rgba(0, 153, 255, 0.6)), url(../images/overlay-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* ...................services..................... */
+.icon-service {
+    width: 5rem;
+    height: 5rem;
+    border-width: 0.6rem !important;
+}
+.under-line-p-custom{
+    position: relative;
+}
+.under-line-p-custom::after{
+    content: "";
+    background-color: var(--hover-color);
+    position: absolute;
+    bottom: -60%;
+    left: 48.5%;
+    width: 3rem;
+    height: 0.3rem;
+}
+.my-numbers{
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 153, 255, 0.6), rgba(0, 153, 255, 0.8)), url(../images/counters-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
